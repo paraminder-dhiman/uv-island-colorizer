@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "uv_island_colorizer"
+version = "1.0.0"
+name = "UV Island Colorizer"
+tagline = "Color every UV island and bake a color ID map"
+maintainer = "Paraminder Dhiman <paramindersd@gmail.com>"
+type = "add-on"
+website = "https://github.com/paraminder-dhiman/uv-island-colorizer"
+
+tags = ["UV", "Bake"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2026 Paraminder Dhiman"]
+
+[permissions]
+files = "Save baked PNG images to the folder you choose"
